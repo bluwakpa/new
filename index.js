@@ -7,7 +7,7 @@ $(function(){
       event.preventDefault();
   
       // Get text value for the new item
-      const listItem = $('.js-shopping-list-entry').val();
+      const listItem = $('#shopping-list-entry').val();
   
       // Clear text entry for user
       $('.js-shopping-list-entry').val('');
